@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form method="post" action="/account/login" target="_blank">
+      <input type="text" name="firstName" /><br />
+      <input type="number" name="salary" /><br />
+      <input type="email" name="email" /><br />
+      <input type="password" name="pass" /><br />
+      <input type="search" name="search" /><br />
+      <input type="url" name="website" /><br />
+      <input type="tel" name="phone" /><br />
+      <input type="hidden" name="code" /><br />
+
+      <input type="checkbox" name="user" id="usr" checked disabled />
+      <label for="usr">Kullanıcı sözleşmesini okudum</label> <br />
+      
+      <input type="checkbox" name="sales" id="sl"/> 
+      <label for="sl">Satış sözleşmesini okudum</label><br />
+
+      <input type="radio" name="gender" id="genderM" checked>
+      <label for="genderM">Erkek</label>
+
+      <input type="radio" name="gender" id="genderF">
+      <label for="genderF">Kadın</label> <br>
+
+      <input type="file" name="avatar"><br>
+
+      <input type="color" name="renk"><br>
+
+      <input type="range" name="salary"><br>
+
+      <input type="date" name="birthdate"><br>
+
+      <input type="time" name="departureTime"><br>
+
+      <input type="datetime-local" name="dt"><br>
+
+      <input type="month" name="mn"><br>
+
+      <input type="week" name="wk"><br>
+
+      <select name="city">
+        <option value="" disabled selected>Seçiniz</option>
+        <option value="34">İstanbul</option>
+        <option value="35">İzmir</option>
+        <option value="06">Ankara</option>
+      </select><br>
+
+      <select name="country" size="5" multiple>
+        <option value="34">Türkiye</option>
+        <option value="35">Germany</option>
+        <option value="06">France</option>
+      </select><br>
+
+
+      <textarea name="" id="" cols="50" rows="5"></textarea><br>
+
+      <input type="button" value="Custom" />
+      <input type="submit" value="Save" />
+      <input type="reset" value="Reset" />
+    </form>
+  </body>
+</html>
