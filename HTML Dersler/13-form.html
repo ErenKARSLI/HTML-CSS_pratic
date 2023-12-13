@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td><label for="ep">Eposta</label></td>
+                <td><input required type="email" name="eposta" id="ep" placeholder="info@example.com"></td>
+            </tr>
+            <tr>
+                <td><label for="sf">Şifre</label></td>
+                <td><input minlength="3" maxlength="10" type="password" name="sifre" id="sf"></td>
+            </tr>
+            <tr>
+                <td><label for="gk">Güvenlik kodu</label></td>
+                <td><input type="number" min="100" max="100000" name="kod" id="gk" value="123123" readonly></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <button type="submit">Kaydet</button>
+                    <button type="reset"> Temizle</button>
+                </td>
+                <!-- deneme -->
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
