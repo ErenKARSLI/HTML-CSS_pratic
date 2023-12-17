@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice12</title>
+  </head>
+  <body>
+    <h1>Techproed Survey Form</h1>    
+    <form action="user/register">
+      <p>Thank you for taking the time to help us improve the platform</p>
+      <label for="name">Name</label><br />
+      <input type="text" name="name" id="name" placeholder="Enter Your Name"><br />
+
+      <label for="surname">Surname</label><br />
+      <input type="text" name="surname" id="surname" placeholder="Enter Your Surname"><br />
+      
+      <label for="email">Email</label><br />
+      <input type="email" name="email" id="email" placeholder="html@techproed.com"><br />
+
+      <p>Which option best describes your current role?</p>
+      <select name="role" id="role">
+        <option disabled selected>Select A Role</option>
+        <option value="1">Teacher</option>
+        <option value="2">Student</option>
+        <option value="3">Employee</option>
+      </select>
+
+      <p>Would you recommend Techproeducation to a friend?</p>
+      <input type="radio" name="recommend" id="yes">
+      <label for="yes">Definetely, Yes</label>
+      <input type="radio" name="recommend" id="maybe">
+      <label for="maybe">Maybe</label>
+      <input type="radio" name="recommend" id="notsure" >
+      <label for="notsure">Not Sure</label>
+      <input type="radio" name="recommend" id="no">
+      <label for="no">Definetely, No</label>
+
+      <p>If you were to take another course, which course would you choose?</p>
+      <input type="checkbox" name="java" id="java">
+      <label for="java">Java Developer</label>
+      <input type="checkbox" name="mobil" id="mobil">
+      <label for="mobil">Mobil Developer</label>
+      <input type="checkbox" name="python" id="python">
+      <label for="python">Python Developer</label>
+      <input type="checkbox" name="data" id="data">
+      <label for="data">Data Science</label>
+
+      <p>Any comments or suggestions ?</p>
+      <textarea name="suggestion" id="suggestion" cols="45" rows="10"></textarea>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
