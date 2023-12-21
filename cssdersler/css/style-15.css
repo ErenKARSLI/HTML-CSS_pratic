@@ -1,0 +1,21 @@
+.kutu1{
+    background-color: aqua;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.kutu2{
+    background-color: rgb(255, 0, 0);
+}
+
+.kutu3{
+    background-color: mediumaquamarine;
+    text-align: center;
+}
+
+.kutu4{
+    background-color: crimson;
+    width: 100px;
+    margin-right:auto;
+    margin-left: auto;
+}
