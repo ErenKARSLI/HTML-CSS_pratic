@@ -4,5 +4,10 @@ h1{
     text-align: center;
 }
 .about{
+    padding: 2rem ;
     text-align: center;
+}
+a:hover{
+    background-color: wheat;
+    color: black;
 }
