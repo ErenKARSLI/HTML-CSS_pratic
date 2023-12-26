@@ -1,0 +1,16 @@
+
+.chk-mode{
+    display: none;
+}
+
+.chk-mode:checked + .content {
+   background-color: black;
+   color: white;
+}
+
+.btn-mode{
+   background-color: aqua;
+   padding: 5px 10px;
+   display: inline-block;
+   cursor: pointer;
+}
