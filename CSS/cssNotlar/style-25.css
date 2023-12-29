@@ -1,0 +1,43 @@
+:root{
+    --color1: red;
+    --color2: blue;
+    --color3: white;
+
+}
+
+
+nav.menu{
+    background-color: var(--color1);
+    text-align: center;
+}
+
+nav.menu ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+nav.menu li{
+    display: inline-block;
+}
+
+nav.menu li::after{
+    content:"|";
+    color: var(--color2);
+}
+
+nav.menu li:last-child::after{
+    content: "►";
+}
+
+nav.menu li:first-child::before{
+    content: "◄";
+    color: var(--color2);
+}
+
+nav.menu a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--color3);
+}
