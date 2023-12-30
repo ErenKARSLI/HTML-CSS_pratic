@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fontawesome</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <style>
+      .menu-item i {
+        color: red;
+        font-size: 2rem;
+      }
+
+      .menu {
+        list-style-type: none;
+      }
+
+      .menu li::before {
+        font: var(--fa-font-solid);
+        content: "\f5e4";
+        font-size: 0.7rem;
+        margin-right:10px;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="menu-item"
+      ><i class="fa-brands fa-twitter fa-rotate-90"></i> Twitter</a
+    ><br />
+
+    <ul>
+      <li>
+        <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-solid fa-circle-info"></i> About</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-sharp fa-solid fa-square-rss"></i> Blog</a>
+      </li>
+      <li>
+        <a href="#"><i class="fa-solid fa-headphones"></i> Contact</a>
+      </li>
+    </ul>
+
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </body>
+</html>

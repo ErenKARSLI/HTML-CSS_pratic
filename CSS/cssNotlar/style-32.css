@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap:5px;
+    height: 50vh;
+}
+
+
+
+
+.container div:nth-child(1){
+    background-color: aqua;
+    flex:1 0 200px;
+}
+
+.container div:nth-child(2){
+    background-color:crimson;
+}
+
+.container div:nth-child(3){
+    background-color: chartreuse;
+}
+
+.container div:nth-child(4){
+    background-color: blueviolet;
+}
+
+.container div:nth-child(5){
+    background-color:coral;
+}
