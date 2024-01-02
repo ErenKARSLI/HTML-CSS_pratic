@@ -21,4 +21,28 @@ body{
     background-color: greenyellow;
     flex:1;
 }
+.kutu-1-2{
+    background-color: brown;
+    flex:3;
+}
 
+.kutu-2{
+    background-color:burlywood;
+    flex:1 0 50px;
+}
+
+.kutu-3{
+    background-color: red;
+    flex:2 0 150px;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap:5px;
+}
+
+.kutu-3 > div{
+    background-color: blue;
+    flex:0 0 30px;
+    padding: 20px;
+}
