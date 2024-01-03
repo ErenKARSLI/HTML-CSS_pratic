@@ -1,0 +1,58 @@
+:root{
+    --color1: #f55220;
+    --color2: #FF8790;
+    --color3: white;
+    --color4: #F44336;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+.stackfindover{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding:25px 25px 0 25px;
+    background-image: linear-gradient(45deg, var(--color1), var(--color2));
+}
+
+.stackfindover .logo{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    color: var(--color3);
+}
+
+.stackfindover .logo h3{
+    margin:0;
+    margin-bottom: -10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.stackfindover .logo span{
+    font-size: 0.7rem;
+}
+
+
+.stackfindover > div:first-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:50px;
+    flex:2 1 300px;
+}
+
+.stackfindover > div:first-child img{
+    width: 100%;
+    height: auto;
+}
+
+
+
+.stackfindover > div:last-child i{
+    background-color: var(--color4);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
