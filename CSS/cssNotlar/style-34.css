@@ -17,6 +17,23 @@ body{
     background-image: linear-gradient(45deg, var(--color1), var(--color2));
 }
 
+.stackfindover .logo{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    color: var(--color3);
+}
+
+.stackfindover .logo h3{
+    margin:0;
+    margin-bottom: -10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.stackfindover .logo span{
+    font-size: 0.7rem;
+}
 
 
 .stackfindover > div:first-child{
@@ -32,7 +49,30 @@ body{
     height: auto;
 }
 
+.stackfindover > div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex:3 1 500px;
+}
 
+.stackfindover > div:last-child *{
+    margin:0;
+    padding: 0;
+    color: var(--color3);
+}
+
+.stackfindover > div:last-child h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+.stackfindover > div:last-child h3{
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
 
 .stackfindover > div:last-child i{
     background-color: var(--color4);
