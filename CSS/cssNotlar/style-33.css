@@ -44,5 +44,5 @@ body{
 .kutu-3 > div{
     background-color: blue;
     flex:0 0 30px;
-    padding: 20px;
+    padding: 20px; 
 }
