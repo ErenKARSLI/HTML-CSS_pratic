@@ -1,0 +1,40 @@
+body{
+    background-image: url("../img/bg.jpg");
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-size: 100px;
+    height: 100vh;
+    padding:30px;
+}
+
+.banner1{
+    background-image: url("../img/nature.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.banner2{
+    background-image: url("../img/nature.jpg");
+    height: 30vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner3{
+    background-image: url("../img/nature.jpg");
+    height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
