@@ -1,0 +1,10 @@
+.box{
+    width:200px;
+    height: 200px;
+    background-color: red;
+    transform: translateX(50%) skew(45deg);
+}
+
+.img-iphone{
+    transform: rotate(-60deg) scale(0.5) translateX(60%);
+}
