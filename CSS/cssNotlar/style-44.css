@@ -6,5 +6,6 @@
 }
 
 .img-iphone{
-    transform: rotate(-60deg) scale(0.5) translateX(60%);
+    transform: rotate(-90deg) scale(0.5)translate(-60%);
+   
 }
