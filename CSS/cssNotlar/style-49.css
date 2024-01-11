@@ -1,0 +1,36 @@
+body{
+    padding: 20px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap:20px;
+}
+
+.boxes div{
+    height:100px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+
+.boxes div:last-child{
+    display: none;
+}
+
+
+@media screen and (min-width:768px) {
+    .boxes{
+        flex-direction: row;
+    }
+
+    .boxes div:last-child{
+        display: block;
+    }
+
+    .boxes div:first-child{
+        background-color: crimson;
+    }
+}
