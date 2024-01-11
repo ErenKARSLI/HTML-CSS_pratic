@@ -1,0 +1,23 @@
+.title1{
+    font-size: 5rem;
+    color:aliceblue;
+    text-shadow: -2px -2px 30px black;
+}
+.title2{
+    font-size: 5rem;
+    color:aliceblue;
+    text-shadow: -2px -2px 30px black,2px 2px 30px purple ;
+}
+.title3{
+    font-size: 5rem;
+    color:rgb(5, 81, 0);
+    box-shadow: 2px 2px 30px black;
+    display: inline-table,;
+    text-align: center;
+}
+.title4{
+    font-size: 5rem;
+    color:rgb(0, 52, 97);
+    box-shadow: -2px -2px 30px black;
+    display: inline;
+}

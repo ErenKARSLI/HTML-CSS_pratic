@@ -70,6 +70,3 @@
    .chk-menu:checked + nav label{
        transform: rotate(180deg);
    }
-   .fa-solid{
-    size: 200px;
-   }
