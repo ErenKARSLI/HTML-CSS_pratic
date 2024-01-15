@@ -239,6 +239,57 @@ label[for="chkMenu"]{
     font-size: 0.9rem;
     font-weight: 700;
 }
+/* BANNER CONTENT */
+
+.banner .content{
+    color: white;
+    text-align: center;
+}
+
+.banner .content h1{
+    font-size: 2.5rem;
+    margin:0;
+}
+
+
+.banner .order-form{
+    position: absolute;
+    bottom:0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    text-align: center;
+    width:90%;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+
+@media screen and (min-width: 700px) {
+    .banner .order-form{
+        width:600px;
+    }
+}
+
+
+.contact form,
+.banner .order-form form{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+@media screen and (min-width: 960px) {
+    .contact form,
+    .banner .order-form form{
+        flex-direction: row;
+    }
+}
+
 
 
 
