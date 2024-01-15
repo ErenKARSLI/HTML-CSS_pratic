@@ -1,0 +1,244 @@
+/*
+1. COMMON
+2. SIDE MENU
+3. BANNER
+3.1. NAVBAR
+3.2. BANNER CONTENT
+4. MAIN
+4.1. TRAVEL
+4.2. SPACER
+4.3. CONTACT
+5. FOOTER
+*/
+
+
+/* COMMON */
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+    padding:0;
+    background-color: black;
+    color: white;
+    overflow-x: hidden ;
+}
+
+/* SIDE MENU */
+
+nav.side-menu{
+    position: fixed;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    width:100%;
+    transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transition: transform 0.5s;
+    -webkit-transition: transform 0.5s;
+    -moz-transition: transform 0.5s;
+    -ms-transition: transform 0.5s;
+    -o-transition: transform 0.5s;
+    z-index: 99;
+    overflow-y: auto;
+}
+
+@media screen and (min-width:600px) {
+    nav.side-menu{
+        left:auto;
+        width:300px;
+    }
+}
+
+
+@media screen and (min-width:720px) {
+    nav.side-menu .menu2,
+    nav.side-menu .menu3{
+        display: none;
+    }
+}
+
+
+
+
+
+nav.side-menu ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    margin-top: 30px;
+    line-height: 50px;
+}
+
+nav.side-menu ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    display: block;
+}
+
+nav.side-menu ul.menu1 i{
+    font-size: 1.3rem;
+    margin-left:5px;
+}
+
+nav.side-menu > label{
+    font-size: 1.5rem;
+}
+
+.side-menu-icon{
+    position: absolute;
+    right:30px;
+    top:32px;
+    z-index: 5;
+    font-size: 1.6rem;
+    color :white;
+}
+
+.chkMenu{
+    display: none;
+}
+
+.chkMenu:checked + nav.side-menu{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+.banner::before{
+    content: "";
+    transition:background-color 1s;
+    -webkit-transition:background-color 1s;
+    -moz-transition:background-color 1s;
+    -ms-transition:background-color 1s;
+    -o-transition:background-color 1s;
+}
+
+
+.chkMenu:checked ~ .banner::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    top:0; left:0; right:0; bottom:0;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+label[for="chkMenu"]{
+    cursor: pointer;
+}
+
+
+
+
+
+/* BANNER */
+
+.banner{
+    height: 100vh;
+    background-image: url("../img/Marketing_LandingFeatured_Redesign_Mobile.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+@media screen and ( min-width:960px ){
+    .banner{
+        background-image: url("../img/Marketing_LandingFeatured_Redesign.webp");
+    }
+}
+/* NAVBAR */
+
+.banner .navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:30px 60px;
+}
+
+.banner .navbar .logos{
+    text-align: center;
+    flex:1;
+}
+
+@media screen and (min-width:720px) {
+    .banner .navbar .logos{
+        flex: 0;
+        text-align: left;
+    }
+}
+
+.banner .navbar .logo{
+    width:180px;
+    height: auto;
+    display: none;
+}
+
+@media screen and (min-width:720px) {
+    .banner .navbar .logo{
+        display: inline;
+    }
+}
+
+
+.banner .navbar .logo-mobile{
+    width:130px;
+    height: auto;
+    position: relative;
+    z-index: 100;
+}
+
+@media screen and (min-width:720px) {
+    .banner .navbar .logo-mobile{
+        display: none;
+    }
+}
+
+.banner .navbar .second-nav,
+.banner .navbar .first-nav{
+    display:none;
+}
+
+@media screen and (min-width:720px) {
+    .banner .navbar .second-nav,
+    .banner .navbar .first-nav{
+        display:block;
+    }
+}
+
+
+.banner .navbar ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+.banner .navbar ul a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+
+
