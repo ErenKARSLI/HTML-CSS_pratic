@@ -64,7 +64,7 @@ nav.side-menu{
 }
 
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1280px) {
     nav.side-menu .menu2,
     nav.side-menu .menu3{
         display: none;
@@ -163,6 +163,8 @@ label[for="chkMenu"]{
         background-image: url("../img/Marketing_LandingFeatured_Redesign.webp");
     }
 }
+
+
 /* NAVBAR */
 
 .banner .navbar{
@@ -177,7 +179,7 @@ label[for="chkMenu"]{
     flex:1;
 }
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1280px) {
     .banner .navbar .logos{
         flex: 0;
         text-align: left;
@@ -190,7 +192,7 @@ label[for="chkMenu"]{
     display: none;
 }
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1280px) {
     .banner .navbar .logo{
         display: inline;
     }
@@ -204,7 +206,7 @@ label[for="chkMenu"]{
     z-index: 100;
 }
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1280px) {
     .banner .navbar .logo-mobile{
         display: none;
     }
@@ -215,7 +217,7 @@ label[for="chkMenu"]{
     display:none;
 }
 
-@media screen and (min-width:1100px) {
+@media screen and (min-width:1280px) {
     .banner .navbar .second-nav,
     .banner .navbar .first-nav{
         display:block;
@@ -239,6 +241,10 @@ label[for="chkMenu"]{
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+
+
+
 /* BANNER CONTENT */
 
 .banner .content{
@@ -342,6 +348,8 @@ label[for="chkMenu"]{
     font-size: 2rem;
     margin-bottom: 10px;
 }
+
+
 /* MAIN */
 
 main > section {
