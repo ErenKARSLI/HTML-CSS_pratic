@@ -473,4 +473,27 @@ main > section .buttons{
     width:100%;
     gap:10px;
 }
+main > section .buttons button{
+    flex:1;
+}
+
+@media screen and (min-width: 1200px) {
+    main > section .buttons{
+        flex-direction: row;
+    }
+}
+
+main >section.testimonals{
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    padding:20px;
+    line-height: 25px;
+}
+
+@media screen and (min-width: 800px) {
+    main >section.testimonals{
+        padding: 10%;
+    }
+}
 
