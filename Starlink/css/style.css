@@ -179,7 +179,7 @@ label[for="chkMenu"]{
     flex:1;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:900px) {
     .banner .navbar .logos{
         flex: 0;
         text-align: left;
@@ -192,7 +192,7 @@ label[for="chkMenu"]{
     display: none;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:900px) {
     .banner .navbar .logo{
         display: inline;
     }
@@ -206,7 +206,7 @@ label[for="chkMenu"]{
     z-index: 100;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:900px) {
     .banner .navbar .logo-mobile{
         display: none;
     }
@@ -217,7 +217,7 @@ label[for="chkMenu"]{
     display:none;
 }
 
-@media screen and (min-width:1280px) {
+@media screen and (min-width:900px) {
     .banner .navbar .second-nav,
     .banner .navbar .first-nav{
         display:block;
@@ -358,7 +358,7 @@ main > section {
     position: relative;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
     main > section {
         flex-direction: row;
     }
@@ -386,7 +386,7 @@ main > section > div:last-child{
     }  
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
     main > section > div:last-child{
         padding: 50px 150px 50px 70px;
         align-items: flex-start;
@@ -422,7 +422,7 @@ main > section button{
     font-weight: 600;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
     main > section button{
         width: 70%;
     }  
@@ -435,7 +435,7 @@ main img{
     height:500px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
     main img{
         height: 100vh;
     }
@@ -456,7 +456,7 @@ main > section.travel > div {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
     main > section.travel > div {
         left:50px;   
         width:50%;
@@ -477,7 +477,7 @@ main > section .buttons button{
     flex:1;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
     main > section .buttons{
         flex-direction: row;
     }
@@ -539,7 +539,7 @@ section.contact{
 }
 
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 900px) {
     section.contact{
         flex-direction: column;
         align-items: center;
