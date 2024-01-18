@@ -548,8 +548,8 @@ section.contact{
 
 
 section.contact button{
-    background-color: rgba(255, 255, 255, 0.232);
+    background-color: rgba(0, 0, 0, 0);
     border: none;
-    color: gray;
+    color: rgb(214, 214, 214);
 }
 
