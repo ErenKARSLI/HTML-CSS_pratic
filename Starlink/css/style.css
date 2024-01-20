@@ -596,4 +596,24 @@ footer nav ul li:last-child::after{
     content: "";
 }
 
+.scroll-top{
+    position: fixed;
+    bottom:20px;
+    right:20px;
+    width: 50px;
+    height:50px;
+    background-color: rgba(255, 255, 255, 0.633);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    box-shadow: 0 0 15px black;
+    z-index: 101;
+}
 
